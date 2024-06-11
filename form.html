@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML5 Input Types</title>
+</head>
+
+<body background="background.jpg">
+    <h1 style = "font-family: Arial, Helvetica, sans-serif ;background-color:black; opacity: 0.7; color: white;">HTML5 Input Types</h1>
+
+<div style="font-family: Arial, Helvetica, sans-serif; background-color:grey; opacity: 0.9;">
+<form>
+  <h2>Email</h2>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  <input type="submit" value="Submit">
+</form>
+
+
+<form>
+  <h2>Number</h2>
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" min="1" max="10" step="1" required>
+  <input type="submit" value="Submit">
+</form>
+
+<form>
+  <h2>Employing Date</h2>
+  <label for="date">Date:</label>
+  <input type="date" id="date" name="date" placeholder="Select a date" min="2024-01-01" max="2024-12-31" required>
+  <input type="submit" value="Submit">
+</form>
+
+<form>
+  <h2>Range</h2>
+  <label for="rating">Rating:</label>
+  <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5">
+  <output for="rating">5</output>
+  <input type="submit" value="Submit">
+<fieldset>
+    <legend>Select Your Country</legend>
+
+    <label for="Country">Country:</label>
+    <select name="country" id="country">
+        <option value = "USA">USA</option>
+        <option value = "URU">Uruguay</option>
+        <option value = "BR">Brasil</option>
+        <option value = "Fr">France</option>
+    </select>
+</fieldset>
+
+</div>
+</body>
+</html>
